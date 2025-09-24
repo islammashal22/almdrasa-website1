@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-header {
+  background-color: #f1f0f0;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-content {
+  float: left;
+}
+.main-nav {
+  float: right;
+  font-weight: bold;
+}
+
+.language {
+  float: right;
+  font-weight: bold;
+}
+
+.author-img {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.author {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+  padding-top: 15px;
+  float: left;
+  color: #5e9ee2;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h2::after {
+  content: "Trending 🔥";
+  display: inline-block;
+  background-color: #5e9ee2;
+  margin-left: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 5px black;
+}
+
+h3 {
+  font-size: 27px;
+  padding: 10px;
+  margin-top: 40px;
+}
+h4 {
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+body {
+  font-size: 18px;
+  color: #323333;
+  font-family: sans-serif;
+  position: relative;
+}
+nav {
+  font-size: 16px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+a:link {
+  padding-left: 10px;
+  text-decoration: none;
+  color: #5e9ee2;
+  margin: 5px;
+  display: inline-block;
+}
+
+a:visited {
+  color: #5e9ee2;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #010c0f;
+}
+a:active {
+  color: #a10000;
+}
+
+.separator {
+  margin: 30px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+}
+
+li {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 5px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.reaction {
+  position: absolute;
+  bottom: 40px;
+  right: 10px;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  position: sticky;
+  top: 20px;
+  background-color: #f1f0f0;
+  width: 300px;
+  float: right;
+}
+
+.main-header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer {
+  clear: both;
+  padding: 20px;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/* RTl styles */
+
+[dir="rtl"] .main-header {
+  background-color: #f1f0f0;
+  padding: 40px 20px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+[dir="rtl"] .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+[dir="rtl"] .nav-content {
+  float: right;
+}
+[dir="rtl"] .main-nav {
+  float: left;
+  font-weight: bold;
+}
+
+[dir="rtl"] .language {
+  float: left;
+  font-weight: bold;
+}
+
+[dir="rtl"] .author-img {
+  float: right;
+  margin-bottom: 10px;
+}
+
+[dir="rtl"] .author {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+[dir="rtl"] h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+  padding-top: 15px;
+  float: right;
+  color: #5e9ee2;
+}
+
+[dir="rtl"] h2::after {
+  content: "الأكثر مشاهدة  🔥";
+  display: inline-block;
+  background-color: #5e9ee2;
+  margin-right: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  border-radius: 5px;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+[dir="rtl"] h3 {
+  font-size: 27px;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+[dir="rtl"] h4 {
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+[dir="rtl"] p {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+[dir="rtl"] a:link {
+  padding-right: 10px;
+  text-decoration: none;
+  color: #5e9ee2;
+  margin: 5px;
+  display: inline-block;
+}
+
+.separator {
+  margin: 30px;
+}
+
+[dir="rtl"] ul,
+ol {
+  margin-right: 50px;
+}
+
+[dir="rtl"] li {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 5px;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+[dir="rtl"] .reaction {
+  right: auto;
+  left: 50px;
+}
+
+[dir="rtl"] article {
+  width: 825px;
+  float: right;
+}
+
+[dir="rtl"] aside {
+  position: sticky;
+  top: 20px;
+  background-color: #f1f0f0;
+  width: 300px;
+  float: left;
+}
